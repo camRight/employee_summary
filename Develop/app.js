@@ -21,22 +21,22 @@ function mainMenu() {
             /* Pass your questions in here */
             {
                 type: "input",
-                message: "What is your name?",
+                message: "What is the employee's name?",
                 name: "name"
             },
             {
                 type: "input",
-                message: "What is your id?",
+                message: "What is the employee's id?",
                 name: "id"
             },
             {
                 type: "input",
-                message: "What is your email?",
+                message: "What is the employee's email?",
                 name: "email"
             },
             {
                 type: "list",
-                message: "What is your role?",
+                message: "What is the employee's role?",
                 choices: ['Manager', 'Intern', 'Engineer'],
                 name: "employeeType"
             }

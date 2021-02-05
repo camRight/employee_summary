@@ -45,9 +45,7 @@ function mainMenu() {
 
 
             typeCheck(data)
-
         })
-
 }
 
 
@@ -60,7 +58,7 @@ function typeCheck(data) {
                 .prompt([
                     {
                         type: "input",
-                        message: "What is your office number?",
+                        message: "What is the employee's office number?",
                         name: "officeNumber"
                     }
                 ])
@@ -83,7 +81,6 @@ function typeCheck(data) {
                                 generateHTML()
                             }
                         })
-                  
                 })
             break;
         case "Intern":
@@ -91,7 +88,7 @@ function typeCheck(data) {
                 .prompt([
                     {
                         type: "input",
-                        message: "What school do you attend currently or in the past?",
+                        message: "What school does the intern attend currently or in the past?",
                         name: "school"
                     }
                 ])
@@ -123,7 +120,7 @@ function typeCheck(data) {
                 .prompt([
                     {
                         type: "input",
-                        message: "What is your github username?",
+                        message: "What is the employee's github username?",
                         name: "github"
                     }
                 ])

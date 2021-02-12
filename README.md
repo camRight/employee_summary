@@ -3,8 +3,7 @@
 In this project I sought to create readable, reliable, and maintainable code. Oftentimes, *how* we design our code is just as important as the code itself. In this project I built a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. Using the Jest node package allows passable testing.
 
 
-add image to readmeWhatever By Uptight Unicorn on Dec 9 2020
-![alt text](.assets/screenshots/console.png)
+![Screenshot of Inquirer Questions in Console](/Assets/screenshots/console.png)
 
 Video of use:
 <iframe src="https://drive.google.com/file/d/1cXwLqkc0tW0-HlYyRfpOANQ8IbKzVcic/preview"</iframe>

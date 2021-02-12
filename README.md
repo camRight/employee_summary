@@ -41,3 +41,7 @@ test/          // jest tests
 app.js         // Runs the application
 ```
 
+
+## Links
+
+Find my repo on github: https://github.com/camRight/employee_summary

@@ -21,22 +21,22 @@ function mainMenu() {
             /* Pass your questions in here */
             {
                 type: "input",
-                message: "What is the employee's name?",
+                message: "What is your name?",
                 name: "name"
             },
             {
                 type: "input",
-                message: "What is the employee's id?",
+                message: "What is your id?",
                 name: "id"
             },
             {
                 type: "input",
-                message: "What is the employee's email?",
+                message: "What is your email?",
                 name: "email"
             },
             {
                 type: "list",
-                message: "What is the employee's role?",
+                message: "What is your role?",
                 choices: ['Manager', 'Intern', 'Engineer'],
                 name: "employeeType"
             }
@@ -45,7 +45,9 @@ function mainMenu() {
 
 
             typeCheck(data)
+
         })
+
 }
 
 
@@ -58,7 +60,7 @@ function typeCheck(data) {
                 .prompt([
                     {
                         type: "input",
-                        message: "What is the employee's office number?",
+                        message: "What is your office number?",
                         name: "officeNumber"
                     }
                 ])
@@ -81,6 +83,7 @@ function typeCheck(data) {
                                 generateHTML()
                             }
                         })
+                  
                 })
             break;
         case "Intern":
@@ -88,7 +91,7 @@ function typeCheck(data) {
                 .prompt([
                     {
                         type: "input",
-                        message: "What school does the intern attend currently or in the past?",
+                        message: "What school do you attend currently or in the past?",
                         name: "school"
                     }
                 ])
@@ -120,7 +123,7 @@ function typeCheck(data) {
                 .prompt([
                     {
                         type: "input",
-                        message: "What is the employee's github username?",
+                        message: "What is your github username?",
                         name: "github"
                     }
                 ])
@@ -182,8 +185,3 @@ mainMenu()
 // for further information. Be sure to test out each class and verify it generates an
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
-
-for (let i = 0; i < 38; i++) {
-    const element = array[i];
-    
-}
